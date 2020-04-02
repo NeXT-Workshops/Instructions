@@ -1,0 +1,17 @@
+\section{Aufgabentitel}
+	\ifthenelse{\boolean{tasks}}{
+		Aufgabenbeschreibung
+	}{}
+	
+	\ifthenelse{\boolean{scoring}}{
+		Bewertungskriterien:
+		
+		\begin{itemize}
+		\item (1P) Teil 1
+		\item (1P) Teil 2
+		\end{itemize}
+	}{}
+
+	\ifthenelse{\boolean{solution}}{
+		\sol{FileNameOfSolution}
+	}{}

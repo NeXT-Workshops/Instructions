@@ -1,0 +1,307 @@
+	
+	
+	\section{Einführung}
+	In dieser Übersicht werden die Funktionen, die zur Steuerung der Roboter zur Verfügung stehen erklärt.
+	Zur Verdeutlichung ein kleines Beispiel:
+	
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+			\hline
+			\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+			void & delay(long milliseconds) \\ 
+			&\\
+			& Verzögert die Ausführung um die angegebene Zeitspanne (Milisekunden)\\ \hline
+		\end{tabular}
+		\end{table}
+	
+	Die Spalte \textit{Typ }gibt an, welchen Typ der Rückgabewert der Funktion hat. \textit{void} bedeutet, dass kein Wert zurück gegeben wird. 
+	In der Klammer hinter dem Funktionsnamen wird angegeben, welche Parameter die Funktion erwartet, und von welchem Typ diese sein müssen. In unserem Beispiel bedeutet dies, dass die \textit{delay}-Methode einen Parameter vom Typ \textit{long} (ganzzahliger Wert) erwartet, welcher \textit{milliseconds }genannt wird. 
+	Ein möglicher Funktionsaufruf sieht wie folgt aus:
+	
+	\begin{lstlisting}
+	public void run(){	
+		delay(1000);
+	}
+	\end{lstlisting}
+	
+	Dabei wird die delay-Methode mit 1000 als Parameter aufgerufen. Das bedeutet, die Ausführung wird um $1000ms$ ($= 1s$) verzögert.
+	
+	
+	\subsection{isInterrputed}
+	Damit die Ausführung des Programms auch in Schleifen unterbrochen werden kann, sollte jede Schleife die isInterrupted-Methode abfragen. 
+	
+	Beispiel:
+	\begin{lstlisting}
+		public void run(){	
+			while(!isInterrupted()){
+				// Schleifeninhalt
+			}
+			for(int i=0; i<10 && !isInterrupted(); i++){
+				// Schleifeninhalt
+			}
+		}
+	\end{lstlisting}
+	
+	
+
+	\section{Wichtige Funktionen}
+	Hier eine kleine Übersicht über die wichtigsten Funktionen beim Programmieren der Roboter.
+	
+	\subsection{Fahren}
+		\begin{center}\texttt{import org.mindroid.api.ImperativeWorkshopAPI}\end{center}
+		
+		Mögliche Eingabewerte für den $speed$-Parameter liegen zwischen 0 und 1000.
+		Eine maximale Geschwindigkeit von $300$ sollte ausreichen. Niedrigere Geschwindigkeiten schonen den Akku.	
+		Die Distanz wird im $distance$-Parameter immer als Kommazahl in Zentimetern (cm) angegeben (z.B.: 20cm werden als $20.0f$ angegeben)
+	
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+		\hline
+		\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+		void & setMotorSpeed(int speed) \\
+		& \\
+		& Bestimmt die Geschwindigkeit für Fahrmethoden ohne $speed$-Parameter. \\ \hline
+		void & forward() \\ 
+		void & backward() \\ & \\
+		& Fahren mit der von $setMotorSpeed(...)$ gesetzten Geschwindigkeit. \\ \hline
+		void & driveDistanceForward(float distance) \\
+		void & driveDistanceBackward(float distance) \\ & \\
+		& Fahren mit der von $setMotorSpeed(...)$ gesetzten Geschwindigkeit\\ 
+		& Die Distanz muss in Zentimetern angegeben werden. \\ \hline
+		
+		void & forward(int speed) \\ 
+		void & backward(int speed)  \\ 
+		void & driveDistanceForward(float distance, int speed) \\ 
+		void & driveDistanceBackward(float distance, int speed) \\ 		
+		& \\
+		& Wie oben, nur dass der $speed$-Parameter die von $setMotorSpeed()$ gesetzte Geschwindigkeit überschreibt. Nach Beendigung des Aufrufs, wird wieder die vorher gesetzte Geschwindigkeit genutzt.\\ \hline
+
+		void & turnLeft(int degrees) \\ 
+		void & turnRight(int degrees) \\ 
+		void & turnLeft(int degrees, int speed) \\ 
+		void & turnRight(int degrees, int speed) \\ 
+		& \\
+		& Dreht den Roboter um den im $degrees$-Parameter bestimmten Wert. \\
+		& Der $Speed$-Parameter verhält sich wie bei den anderen Methoden. \\ \hline
+		
+		void & stop() \\ 
+		& \\
+		& Stoppt sofort alle Motoren.	\\ \hline
+		\end{tabular}
+		\end{table}
+		
+		\newpage
+	\subsection{Sensoren}
+			\begin{center}\texttt{import org.mindroid.api.ImperativeWorkshopAPI}\end{center}
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+		\hline
+		\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+		float & getAngle() \\ 
+		&\\
+		& Liefert den Winkel des Gyrosensors in Grad\\ \hline
+		float & getDistance() \\ 
+		&\\
+		& Liefert die vom Ultraschallsensor gemessene Distanz in Zentimetern\\ \hline		
+		Colors & getLeftColor() \\ 
+		Colors & getRightColor() \\
+		&\\
+		& Liefert den Wert des Linken/Rechten Farbsensors\\ 
+		& Farbwerte: Colors.BLACK, Colors.BLUE, Colors.BROWN, Colors.GREEN, \\ &Colors.RED, Colors.WHITE, Colors.YELLOW, Colors.NONE\\ \hline
+		\end{tabular}
+		\end{table}
+
+	\subsection{Kommunikation}
+				\begin{center}\texttt{import org.mindroid.api.ImperativeWorkshopAPI}\end{center}
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+		\hline
+		\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+		boolean & hasMessage() \\ 
+				&\\
+		& Prüft ob Nachricht vorhanden ist \\ \hline
+		MindroidMessage & getNextMessage() \\ 
+				&\\
+		& Ruft nächste Nachricht ab \\ \hline		
+		void & sendBroadcastMessage(String message) \\ 
+				&\\
+		& Sendet eine Nachricht an alle Roboter \\ \hline
+		String & getRobotID() \\ 
+				&\\
+		& Gibt den Namen des Roboters zurück. \\ \hline
+		void & sendLogMessage(String logmessage) \\ 
+				&\\
+		& Sendet eine Nachricht an den Message Server \\ \hline
+		void & sendMessage(String destination, String message) \\ 
+				&\\
+		& Sendet eine Nachricht an den $destination$-Roboter \\ \hline
+		\end{tabular}
+		\end{table}
+		
+		Um eine Nachricht zu empfangen, muss zuerst mit $hasMessage()$ überprüft werden ob eine Nachricht vorhanden ist. Liefert $hasMessage()$ true zurück, kann mit $getNextMessage()$ eine Nachricht abgerufen werden. Das Beispiel in Listing \ref{lst:msg} zeigt wie das geht.
+		
+		\begin{lstlisting}[captionpos=b, caption=Beispiel zum Abrufen einer Nachricht, label=lst:msg]
+		if (hasMessage()){
+          String msg = getNextMessage().getContent();
+        }
+		\end{lstlisting}
+		
+		$broadcastMessage(...)$ schickt eine Nachricht an alle mit dem selben Message-Server verbundenen Roboter.
+		
+		\subsection{MindroidMessage}
+
+			Um die von $getNextMessage()$ zurückgegebene Nachricht verarbeiten zu können, muss ein zusätzlicher import hinzugefügt werden.
+						\begin{center}import org.mindroid.common.messages.server.MindroidMessage;\end{center}
+		
+			\begin{table}[htbp]
+				\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+					\hline
+					\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+					String & getContent() \\ 
+							&\\
+					& Liefert den Inhalt der Nachricht zurück\\ \hline
+					RobotID & getDestination() \\ 
+					RobotID & getSource() \\ 
+							&\\
+					& Liefert die Quelle/das Ziel der Nachricht an\\ \hline		
+				\end{tabular}
+			\end{table}
+		
+	%\newpage
+	\subsection{Brick}
+	\subsubsection{Display}
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+		\hline
+		\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+		void & clearDisplay() \\ 
+		&\\
+		& Löscht den Aktuellen Inhalt des Displays \\ \hline
+		void & drawString(String text)\\			
+		void & drawString(String text, int row)\\
+		&\\
+		& Schreibt den im $text$-Parameter gegebenen Text auf das Display.\\
+		& Der Parameter $row$ bestimmt die zu beschreibende Zeile. \\
+		& Wird der Parameter $row$ weggelassen, wir in die Mittlere Zeile geschrieben. \\
+		\hline
+
+		\end{tabular}
+		\end{table}
+		\gcenter{img/ev3_display}{Koordinaten der Pixel des Displays des EV3\protect\footnotemark\ }{display}{.5\textwidth}
+		
+\footnotetext{ \url{https://services.informatik.hs-mannheim.de/~ihme/lectures/LEGO\_Files/01\_Anfaenger\_Graphisch\_EV3\_BadenBaden.pdf}		}
+
+	\newpage
+	\subsubsection{Buttons}
+							\begin{center}import org.mindroid.impl.brick.Button;\end{center}
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+		\hline
+		\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+		boolean & isDownButtonClicked() \\ 
+		boolean & isEnterButtonClicked() \\ 
+		boolean & isLeftButtonClicked() \\ 
+		boolean & isRightButtonClicked() \\ 
+		boolean & isUpButtonClicked() \\ \hline
+		\end{tabular}
+		\end{table}
+
+		Die Funktionen liefern $true$ wenn der entsprechende Button gedrückt wurde. Die Benennung der Buttons kannst du Abbildung \ref{fig:buttons} auf Seite \pageref{fig:buttons} entnehmen
+
+		%\newpage
+	\subsubsection{Sound}
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+		\hline
+		\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+		void & setSoundVolume(int volume) \\ 
+		void & playBeepSequenceDown() \\ 
+		void & playBeepSequenceUp() \\ 
+		void & playBuzzSound() \\ 
+		void & playDoubleBeep() \\ 
+		void & playSingleBeep() \\ \hline
+		\end{tabular}
+		\end{table}
+		
+		Der Parameter $volume$ nimmt Werte von 0 bis 10 entgegen.
+		
+	\newpage
+	\subsubsection{LED}		
+		\begin{table}[htbp]
+		\begin{tabular}{|p{0.2\textwidth} p{0.75\textwidth}|}
+		\hline
+		\textbf{Typ} & \textbf{Methode und Beschreibung} \\ \hline
+		void & setLED(int mode) \\ 
+		&\\
+		& Lässt die LED des EV3 im angegebenen Modus leuchten\\
+		& Der Parameter $mode$ kann entweder als Ganzzahl von 0 bis 9 oder als Konstante angegeben werden. \\
+		& Siehe Tabelle \ref{tab:led}\\
+		\hline
+		
+		\end{tabular}
+		\end{table}
+		
+		
+		
+		\begin{table}[htbp]
+		\caption{Funktion der einzelnen Modi der LED}
+		\begin{center}
+		\begin{tabular}{r|l|l|l}
+		
+		\multicolumn{2}{c|}{\textbf{Modus (Parameter $mode$)}}   & \textbf{Farbe} & \textbf{Intervall} \\ 
+		\multicolumn{1}{l|}{Wert} & Konstante &  &  \\ \hline
+		0 & LED\_OFF & Aus & Aus \\ 
+		1 & LED\_GREEN\_ON & Grün & Dauer \\ 
+		2 & LED\_GREEN\_BLINKING & Grün & Blinken \\ 
+		3 & LED\_GREEN\_FAST\_BLINKING & Grün & Schnell Blinken \\ 
+		4 & LED\_YELLOW\_ON & Gelb & Dauer \\ 
+		5 & LED\_YELLOW\_BLINKING & Gelb & Blinken \\ 
+		6 & LED\_YELLOW\_FAST\_BLINKING & Gelb & Schnell Blinken \\ 
+		7 & LED\_RED\_ON & Rot & Dauer \\ 
+		8 & LED\_RED\_BLINKING & Rot & Blinken \\ 
+		9 & LED\_RED\_FAST\_BLINKING & Rot & Schnell Blinken \\ 
+		\end{tabular}
+		\end{center}
+		\label{tab:led}
+		\end{table}
+		
+		\newpage
+		\section{EV3 Tasten}
+		Abbildung \ref{fig:buttons} zeigt dir wie die Tasten am EV3-Brick genannt werden. Die Enter-Taste wird zum Bestätigen genutzt, mit der Escape-Taste, geht es ein Menü zurück. 
+		\gcenter{img/ev3_buttons.png}{EV3-Tastenbelegung\protect\footnotemark\ }{buttons}{.5\textwidth}
+		\footnotetext{ Quelle http://www.ev3dev.org/images/ev3/labeled-buttons.png}
+		
+		Die Bedeutung der Tasten kannst du der folgenden Aufzählung entnehmen. 
+		\begin{enumerate}
+			\item \textbf{Escape / Zurück}
+			\item \textbf{Up / Hoch}
+			\item \textbf{Left / Links}
+			\item \textbf{Enter / Bestätigen}
+			\item \textbf{Right / Rechts}  
+			\item \textbf{Down / Unten}  
+		\end{enumerate}
+	
+	\ifthenelse{\boolean{withJava}}{
+		\section{Kurze Übersicht über Java}
+		\arrayrulecolor{white}
+		\begin{table}[h]
+			\renewcommand{\arraystretch}{1.5}
+			\begin{center}
+				\begin{tabular}{|p{0.3\textwidth}|p{0.7\textwidth}|}
+					\hline
+					Schleife mit Bedingung& while(Bedingung) \{Programmcode\} \tabularnewline
+					\space & \scriptsize Beispiel: while(i<100)\{...\} \tabularnewline
+					\hline
+					Zählschleife& for(Start; Bedingung; Zählschritte) \{Programmcode\} \tabularnewline
+					\space & \scriptsize Beispiel: for(int i=0;i<10;i++)\{...\} \tabularnewline
+					\hline
+					Bedingung& if(Bedingung) \tabularnewline
+					\space& \{wenn die Bedingung wahr ist, wird dieser Code ausgeführt\} \tabularnewline
+					\space & else \tabularnewline
+					\space & \{wenn die Bedingung falsch ist, wird dieser Code ausgeführt\}
+					\tabularnewline
+					\hline			
+				\end{tabular}
+			\end{center}
+		\end{table}
+	}{}

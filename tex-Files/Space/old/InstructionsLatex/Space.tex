@@ -1,0 +1,57 @@
+\documentclass[12pt,colorbacktitle,accentcolor=tud1c]{tudexercise}
+\usepackage{ngerman}
+
+\usepackage{floatrow}
+\usepackage{subfig}
+\newfloatcommand{capbtabbox}{table}[][\FBwidth+5cm]
+\usepackage{blindtext}
+\usepackage{colortbl}
+\usepackage{ifthen}
+
+\newcommand{\unit}[1]{{\rm\,#1}}
+
+\title{Space Workshop \newline Dokumentation }
+\subtitle{NeXT Generation on Campus}
+\subsubtitle{TU Darmstadt}
+
+\newboolean{sensorsDetailed}
+\setboolean{sensorsDetailed}{true}
+
+
+\begin{document}
+	\maketitle	
+	%\begin{figure}
+	%	\newline
+	%	\centering
+	\bigskip
+	\bigskip
+	\bigskip
+	\bigskip
+	\bigskip
+	\bigskip
+	\begin{figure}[h]
+			\centering 
+			\includegraphics[width=\textwidth]{images/title.jpg}
+	\end{figure}
+	
+	%\begin{center}
+	%	\includegraphics[width=\textwidth]{images/title.jpg}
+	%\end{center}
+	\newpage
+	
+	%\end{figure}
+	\input{parts/brick}		
+	\input{parts/motorcontrol}
+	\input{parts/delay}
+	\input{parts/buttons}
+	\input{parts/loudspeaker}
+	\input{parts/display}
+	\ifthenelse{\boolean{sensorsDetailed}}
+		{\input{parts/sensorsDetailed}}
+		{\input{parts/sensorsAPI}}
+	\input{parts/java}
+	\input{parts/sources}
+  
+   
+    
+\end{document}

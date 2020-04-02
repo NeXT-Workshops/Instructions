@@ -1,0 +1,177 @@
+%% This is file `DEMO-TUDaPub.tex' version 2.09 (2020/03/13),
+%% it is part of
+%% TUDa-CI -- Corporate Design for TU Darmstadt
+%% ----------------------------------------------------------------------------
+%%
+%%  Copyright (C) 2018--2020 by Marei Peischl <marei@peitex.de>
+%%
+%% ============================================================================
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3c
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%% http://www.latex-project.org/lppl.txt
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2008/05/04 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainers of this work are
+%%   Marei Peischl <tuda-ci@peitex.de>
+%%   Markus Lazanowski <latex@ce.tu-darmstadt.de>
+%%
+%% The development respository can be found at
+%% https://github.com/tudace/tuda_latex_templates
+%% Please use the issue tracker for feedback!
+%%
+%% ============================================================================
+%%
+% !TeX program = lualatex
+%%
+
+\documentclass[
+	ngerman,
+	accentcolor=1c,% Farbe für Hervorhebungen auf Basis der Deklarationen in den Corporate Design Richtlinien
+%	logofile=example-image, %Falls die Logo Dateien nicht vorliegen
+	marginpar=false,
+	identbarcolor=1c,
+	]{tudapub}
+
+\usepackage[english, main=ngerman]{babel}
+\usepackage[babel]{csquotes}
+
+\usepackage{biblatex}
+\bibliography{DEMO-TUDaBibliography}
+
+%Formatierungen für Beispiele in diesem Dokument. Im Allgemeinen nicht notwendig!
+\let\file\texttt
+\let\code\texttt
+\let\pck\textsf
+\let\cls\textsf
+
+
+
+
+
+%% LOAD CONFIGURATION
+\input{parts/settings}
+
+%% MANAGE BOOLEANS
+
+% DOCU
+
+\setboolean{withJava}{false}
+\setboolean{doc}{false}
+\setboolean{devDoc}{false}
+
+% TASKS
+\setboolean{tasks}{true}
+\setboolean{solution}{false}
+\setboolean{intro}{true}
+\setboolean{scoring}{false}
+
+%relative path to workshop solutions folder
+\newcommand{\solpath}{solutions}
+
+\newcommand{\mySecName}{DUMMY}
+
+\ifthenelse{\boolean{devDoc}}
+{\renewcommand{\mySecName}{Abschnitt}}
+{\renewcommand{\mySecName}{Aufgabe}}
+\ifthenelse{\boolean{doc}}
+{\renewcommand{\mySecName}{Abschnitt}}
+{\renewcommand{\mySecName}{Aufgabe}}
+
+\makeatletter
+\newcommand{\TUD@sectionname@de}{\mySecName}
+\makeatother
+
+
+
+
+
+
+\begin{document}
+
+%Zusätzliche Metadaten für PDF/A. In diesem Fall notwendig, weil Titel ein Makro enthält.
+\Metadata{
+	author=NeXT,
+	title=Mindroid Template,
+	%subject=Basisdokumentation und Template zur Nutzung der tudapub-Dokumentenkasse,
+	%date=2019-04-29,
+	%keywords=TU Darmstadt \sep Corporate Design \sep LaTeX
+}
+
+
+
+
+\title{Space Workshop\newline Dokumentation}
+\subtitle{NeXT Generation on Campus}
+%\author{Marei Peischl\thanks{pei\TeX{} \TeX{}nical Solutions}\and der \TeX-Löwe}
+\date{}
+%\titleimage{
+%%	%Folgende Box kann selbstverständlich durch ein mit \includegraphics geladenes Bild ersetzt werden.
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%\bigskip
+%%\includegraphics[width=\textwidth]{images/title.jpg}
+%	%\color{black!30}\rule{\width}{\height}
+%}
+
+
+%Varianten der Infoboxen
+%\addTitleBox{\includegraphics[width=\linewidth]{images/ist_logo.pdf}}
+%\addTitleBoxLogo{example-image}
+%\addTitleBoxLogo*{\includegraphics[width=.3\linewidth]{example-image}}
+
+
+
+%\maketitle
+
+
+%\newpage
+
+
+	\input{parts/title}
+	
+	
+	\ifthenelse{\boolean{doc}}{
+		\input{parts/doc}		
+	}{}
+	\ifthenelse{\boolean{devDoc}}{
+		\input{parts/devDoc}		
+	}{}
+	
+	\ifthenelse{\boolean{intro}}{
+		\input{tasks/intro_helloWorld}
+		\input{tasks/intro_parkSensor}
+		\input{tasks/intro_colorSensor}
+		\input{tasks/intro_helloWorldCoord}
+	}{}
+	
+	\ifthenelse{\boolean{tasks}}{	
+		\input{tasks/mower}		
+		\input{tasks/wallPingPong}
+		\input{tasks/platooning}
+		\input{tasks/wallPingPongCoord}
+		\input{tasks/dancing}
+	}{}
+
+
+
+
+
+\cfoot{\textcolor{lightgray} \today}
+
+
+
+
+\end{document}
