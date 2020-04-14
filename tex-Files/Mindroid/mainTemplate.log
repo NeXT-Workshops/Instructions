@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  2 APR 2020 11:58
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  3 APR 2020 18:21
  restricted system commands enabled.
 **mainTemplate.tex
 (./mainTemplate.tex
@@ -1944,50 +1944,96 @@ Package luatex.def Info: MindroidTitle.png  used on input line 55.
 
 
 
-<./MindroidTitle.png><./tuda_logo.pdf><./ist_logo.pdf>]) (./tasks/intro_helloWo
-rld.tex
+<./MindroidTitle.png><./tuda_logo.pdf><./ist_logo.pdf>]) (./parts/doc.tex
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 1.
+(Font)              scaled to size 10.95pt on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 1.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 2.
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
-put line 4.
+(Font)              <8> on input line 3.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 10.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 17.
 LaTeX Font Info:    Try loading font information for T1+RobotoMono-TLF on input 
-line 4.
+line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/T1RobotoMono-TLF.fd
 File: T1RobotoMono-TLF.fd 2019/06/03 (autoinst) Font definitions for T1/RobotoMo
 no-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 4.
+(Font)              scaled to size 9.0pt on input line 21.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoMono-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 4.
-
-(./solutions/HelloWorld.java
+(Font)              scaled to size 7.0pt on input line 21.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 22.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 22.
 LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/bold/n' will be
-(Font)              scaled to size 7.0pt on input line 3.
+(Font)              scaled to size 7.0pt on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 93.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 93.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 93.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 93.
+ [2
+
+
+
+
+]
+[3]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
+put line 143.
+LaTeX Font Info:    Try loading font information for T1+RobotoSlab-TLF on input 
+line 147.
+ (/usr/share/texlive/texmf-dist/tex/latex/roboto/T1RobotoSlab-TLF.fd
+File: T1RobotoSlab-TLF.fd 2019/04/19 (autoinst) Font definitions for T1/RobotoSl
+ab-TLF.
 )
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 5.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `RobotoSlab-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+[4]
+<img/ev3_display.png, id=104, 265.99374pt x 190.7125pt>
+File: img/ev3_display.png Graphic file (type png)
+<use img/ev3_display.png>
+Package luatex.def Info: img/ev3_display.png  used on input line 190.
+(luatex.def)             Requested size: 256.07481pt x 183.61736pt.
+ [5<./img/ev3_display.png>] [6] [7]
+<img/ev3_buttons.png, id=141, 301.125pt x 180.675pt>
+File: img/ev3_buttons.png Graphic file (type png)
+<use img/ev3_buttons.png>
+Package luatex.def Info: img/ev3_buttons.png  used on input line 271.
+(luatex.def)             Requested size: 256.07481pt x 153.65993pt.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 307.
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 307--307
+ [] 
+ []
+
+) (./tasks/intro_helloWorld.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+ (./solutions/HelloWorld.java [8<./img/ev3_buttons.png>])
 LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input l
 ine 7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
 File: TS1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for TS1/XCharter
 -TLF.
 )
@@ -2004,34 +2050,14 @@ Package microtype Info: Character `texttildelow ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 7.
-)
-(./tasks/intro_parkSensor.tex
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 1.
- (./solutions/ParkingSensor.java
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 27.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 27.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 27.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 27.
- [2
-
-
-
-
-]))
+) (./tasks/intro_parkSensor.tex (./solutions/ParkingSensor.java [9]))
 (./tasks/intro_colorSensor.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-(./solutions/ColorTest.java) [3]) (./tasks/intro_helloWorldCoord.tex
-(./solutions/HelloWorldPingA.java) (./solutions/HelloWorldPingB.java) [4])
-(./tasks/mower.tex) (./tasks/wallPingPong.tex) (./tasks/platooning.tex)
-(./tasks/wallPingPongCoord.tex) (./tasks/dancing.tex [5])
+(./solutions/ColorTest.java) [10]) (./tasks/intro_helloWorldCoord.tex
+(./solutions/HelloWorldPingA.java) (./solutions/HelloWorldPingB.java))
 
 Package TUDaPub Warning: You did not provide a Label for key introduction.
 (TUDaPub)                Either you need to recompile your document or add a
@@ -2052,7 +2078,7 @@ Package TUDaPub Warning: You did not provide a Label for key discussion.
 (TUDaPub)                Either you need to recompile your document or add a
 (TUDaPub)                label using \IMRADlabel.
 
-[6]
+[11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (./mainTemplate.aux)
@@ -2070,32 +2096,36 @@ Package logreq Info: Writing requests to 'mainTemplate.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 54429 strings out of 494291
- 305236,1648299 words of node,token memory allocated
- 4210 words of node memory still in use:
-   84 hlist, 8 vlist, 21 rule, 11 disc, 14 local_par, 1 dir, 6 math, 84 glue, 36
- kern, 24 penalty, 3 margin_kern, 86 glyph, 265 attribute, 65 glue_spec, 163 att
+ 54542 strings out of 494291
+ 244175,1648299 words of node,token memory allocated
+ 4183 words of node memory still in use:
+   84 hlist, 8 vlist, 21 rule, 12 disc, 14 local_par, 1 dir, 6 math, 87 glue, 32
+ kern, 24 penalty, 2 margin_kern, 81 glyph, 265 attribute, 65 glue_spec, 163 att
 ribute_list, 2 write, 16 pdf_literal, 42 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_
 save, 2 pdf_restore nodes
-   avail lists: 1:8,2:13526,3:243,4:385,5:6527,6:94,7:10497,8:63,9:11908,10:25,1
-1:615,12:1
- 56686 multiletter control sequences out of 65536+600000
- 95 fonts using 10801103 bytes
+   avail lists: 1:8,2:11293,3:299,4:326,5:5494,6:166,7:9736,8:118,9:9833,10:25,1
+1:596,12:1
+ 56763 multiletter control sequences out of 65536+600000
+ 101 fonts using 11294167 bytes
  76i,24n,109p,9141b,2879s stack positions out of 5000i,500n,10000p,200000b,100000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_hsw3yt.enc}{/usr/shar
-e/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_q7u3cc.enc}{/usr/share/texlive
-/texmf-dist/fonts/enc/dvips/roboto/rbto_e24joy.enc}{/usr/share/texlive/texmf-dis
-t/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/usr/share/texlive/texmf-dist/fonts/e
-nc/dvips/xcharter/xch_a3psji.enc}</usr/share/texlive/texmf-dist/fonts/type1/goog
-le/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/robo
-to/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/R
-obotoMono-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Robo
-toMono-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XC
-harter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XChar
-ter-Roman.pfb>
-Output written on mainTemplate.pdf (6 pages, 1220366 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_q7u3cc.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_usdwn6.enc}{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/roboto/rbto_hsw3yt.enc}{/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/roboto/rbto_e24joy.enc}{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/xcharter/xch_tuu2ww.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/x
+charter/xch_a3psji.enc}</usr/share/texlive/texmf-dist/fonts/type1/google/roboto/
+Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-
+Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoMono-
+Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoMono-Reg
+ular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Reg
+ular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Bol
+d.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on mainTemplate.pdf (11 pages, 1336211 bytes).
 
-PDF statistics: 324 PDF objects out of 1000 (max. 8388607)
- 180 named destinations out of 1000 (max. 131072)
- 263 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 439 PDF objects out of 1000 (max. 8388607)
+ 213 named destinations out of 1000 (max. 131072)
+ 335 words of extra memory for PDF output out of 10000 (max. 100000000)
 

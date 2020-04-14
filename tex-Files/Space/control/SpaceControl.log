@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  1 APR 2020 20:19
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  3 APR 2020 18:18
  restricted system commands enabled.
 **SpaceControl.tex
 (./SpaceControl.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.041 seconds
+luaotfload | main : initialization completed in 0.039 seconds
 (/home/david/texmf/tex/latex/tuda-ci/tudapub.cls
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-07-01 L3 programming layer (loader) 
@@ -1863,9 +1863,12 @@ Overfull \hbox (25.19997pt too wide) in paragraph at lines 6--21
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[5<./images/ultrasonic.jpg><./images/color.png><./images/gyro.png><./images/touc
+h.png>]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 24.
 ) (./parts/sources.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
@@ -1896,8 +1899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[5<./images/ultrasonic.jpg><./images/color.png><./images/gyro.png><./images/touc
-h.png>])
+)
 
 Package TUDaPub Warning: You did not provide a Label for key introduction.
 (TUDaPub)                Either you need to recompile your document or add a
@@ -1939,16 +1941,16 @@ Package logreq Info: Writing requests to 'SpaceControl.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42979 strings out of 494291
+ 43001 strings out of 494291
  100000,1648299 words of node,token memory allocated
  3101 words of node memory still in use:
    66 hlist, 8 vlist, 13 rule, 5 disc, 13 local_par, 1 dir, 6 math, 76 glue, 26 
 kern, 23 penalty, 54 glyph, 166 attribute, 66 glue_spec, 88 attribute_list, 1 wr
 ite, 26 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:1,2:1909,3:292,4:130,5:385,6:110,7:3168,8:10,9:850,10:5,11:261
+   avail lists: 1:1,2:1909,3:292,4:130,5:385,6:110,7:2995,8:10,9:850,10:5,11:257
 
- 45879 multiletter control sequences out of 65536+600000
- 77 fonts using 9503567 bytes
+ 45891 multiletter control sequences out of 65536+600000
+ 85 fonts using 10040503 bytes
  58i,24n,103p,9141b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_hsw3yt.enc}{/usr/shar
 e/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/usr/share/texlive
@@ -1959,9 +1961,9 @@ ogle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google
 /roboto/RobotoSlab-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xc
 harter/XCharter-Roman.pfb>
-Output written on SpaceControl.pdf (6 pages, 1171192 bytes).
+Output written on SpaceControl.pdf (6 pages, 1172750 bytes).
 
-PDF statistics: 144 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 131072)
- 88 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 131072)
+ 96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
