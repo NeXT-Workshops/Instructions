@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  17 APR 2020 12:28
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  17 APR 2020 19:07
  restricted system commands enabled.
 **Setup.tex
 (./Setup.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.040 seconds
+luaotfload | main : initialization completed in 0.045 seconds
 (/home/david/texmf/tex/latex/tuda-ci/tudapub.cls
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-07-01 L3 programming layer (loader) 
@@ -1545,53 +1545,53 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 104
 
 \openout7 = Setup.toc
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 108.
+(Font)              scaled to size 10.0pt on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 108.
+(Font)              <7> on input line 111.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 127.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 127.
+(Font)              scaled to size 6.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 127.
+(Font)              scaled to size 7.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 127.
+(Font)              scaled to size 5.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 136.
+(Font)              scaled to size 8.0pt on input line 137.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 136.
+(Font)              scaled to size 10.95pt on input line 137.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 136.
+(Font)              scaled to size 10.95pt on input line 137.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 136.
+(Font)              scaled to size 8.0pt on input line 137.
  [2
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 145.
+(Font)              scaled to size 9.0pt on input line 150.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--151
+Underfull \hbox (badness 10000) in paragraph at lines 145--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
   [][][]$\OML/cmm/m/it/7 https \OT1/cmr/m/n/7 : \OML/cmm/m/it/7 ==sourceforge:n
 et=projects=ev\OT1/cmr/m/n/7 3\OML/cmm/m/it/7 :lejos:p=files=\OT1/cmr/m/n/7 0\O
 ML/cmm/m/it/7 :\OT1/cmr/m/n/7 9\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 1 \OMS/cmsy/m/n/
-7   \OML/cmm/m/it/7 beta=leJOS[]V\OT1/cmr/m/n/7 3[]\OML/cmm/m/it/7 :\OT1/cmr/m/
-n/7 9\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 1 \OMS/cmsy/m/n/7  
+7   \OML/cmm/m/it/7 beta=leJOS[]EV\OT1/cmr/m/n/7 3[]0\OML/cmm/m/it/7 :\OT1/cmr/
+m/n/7 9\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 1 \OMS/cmsy/m/n/7  
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 162--162
+Underfull \hbox (badness 1354) in paragraph at lines 171--171
   [][][]$\OML/cmm/m/it/7 https \OT1/cmr/m/n/7 : \OML/cmm/m/it/7 ==download:jetb
 rains:com=idea=ideaIC \OMS/cmsy/m/n/7   \OT1/cmr/m/n/7 2018\OML/cmm/m/it/7 :\OT
 1/cmr/m/n/7 3\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 6\OML/cmm/m/it/7 :exe\OT1/cmr/m/n/
@@ -1600,23 +1600,16 @@ rains:com=idea=ideaIC \OMS/cmsy/m/n/7   \OT1/cmr/m/n/7 2018\OML/cmm/m/it/7 :\OT
 405054 \OMS/cmsy/m/n/7  
  []
 
-
-Overfull \hbox (60.05078pt too wide) in paragraph at lines 166--168
+[3]
+Overfull \hbox (60.05078pt too wide) in paragraph at lines 175--177
 \T1/XCharter-TLF/m/n/9 Um die-ses Be-triebs-sys-tem auf dem Ro-bo-ter zu in-sta
 l-lie-ren, muss das Pro-gramm un-ter $\OML/cmm/m/it/9 C \OT1/cmr/m/n/9 : \OMS/c
 msy/m/n/9 n\OML/cmm/m/it/9 ProgramFiles\OMS/cmsy/m/n/9 n\OML/cmm/m/it/9 leJOSEV
 \OT1/cmr/m/n/9 3\OMS/cmsy/m/n/9 n\OML/cmm/m/it/9 bin$
  []
 
-[3]
-Underfull \hbox (badness 1354) in paragraph at lines 183--183
-  [][][]$\OML/cmm/m/it/7 https \OT1/cmr/m/n/7 : \OML/cmm/m/it/7 ==download:jetb
-rains:com=idea=ideaIC \OMS/cmsy/m/n/7   \OT1/cmr/m/n/7 2018\OML/cmm/m/it/7 :\OT
-1/cmr/m/n/7 3\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 6\OML/cmm/m/it/7 :exe\OT1/cmr/m/n/
-7 ?[]\OML/cmm/m/it/7 a \OT1/cmr/m/n/7 = 2\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 130381
-95\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 579836862\OML/cmm/m/it/7 :\OT1/cmr/m/n/7 1576
-405054 \OMS/cmsy/m/n/7  
- []
+
+Package hyperref Warning: Suppressing link with empty target on input line 193.
 
 
 Package TUDaPub Warning: You did not provide a Label for key introduction.
@@ -1638,12 +1631,12 @@ Package TUDaPub Warning: You did not provide a Label for key discussion.
 (TUDaPub)                Either you need to recompile your document or add a
 (TUDaPub)                label using \IMRADlabel.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./Setup.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `Setup.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1656,15 +1649,15 @@ Package logreq Info: Writing requests to 'Setup.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40832 strings out of 494291
+ 40835 strings out of 494291
  100000,1373583 words of node,token memory allocated
- 3286 words of node memory still in use:
-   66 hlist, 8 vlist, 13 rule, 6 disc, 13 local_par, 1 dir, 6 math, 84 glue, 33 
-kern, 23 penalty, 57 glyph, 190 attribute, 64 glue_spec, 100 attribute_list, 1 w
+ 3318 words of node memory still in use:
+   66 hlist, 8 vlist, 13 rule, 6 disc, 13 local_par, 1 dir, 6 math, 86 glue, 34 
+kern, 23 penalty, 57 glyph, 196 attribute, 63 glue_spec, 103 attribute_list, 1 w
 rite, 26 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:3,2:1491,3:314,4:60,5:595,6:100,7:4587,8:137,9:428,10:10,11:38
-9
- 43927 multiletter control sequences out of 65536+600000
+   avail lists: 1:3,2:1444,3:279,4:60,5:599,6:98,7:4578,8:137,9:404,10:10,11:384
+
+ 43929 multiletter control sequences out of 65536+600000
  87 fonts using 10208751 bytes
  55i,20n,86p,9134b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/usr/sha
@@ -1677,15 +1670,13 @@ pe1/public/xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1
 public/xcharter/XCharter-Roman.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Setup.pdf (4 pages, 781489 bytes).
+/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Setup.pdf (4 pages, 768249 bytes).
 
-PDF statistics: 225 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 131072)
- 152 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 220 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 131072)
+ 144 words of extra memory for PDF output out of 10000 (max. 100000000)
 
