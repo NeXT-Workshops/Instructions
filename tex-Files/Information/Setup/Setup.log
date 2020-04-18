@@ -1,131 +1,270 @@
-This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7300 64-bit)  (format=lualatex 2020.2.17)  18 APR 2020 15:51
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  18 APR 2020 16:33
  restricted system commands enabled.
 **Setup.tex
 (./Setup.tex
-LaTeX2e <2020-02-02> patch level 1
-Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
-Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
+LaTeX2e <2018-12-01>
+Lua module: luaotfload-main 2019-05-18 2.97 luaotfload entry point
+Lua module: luaotfload-init 2019-05-18 2.97 luaotfload submodule / initializatio
 n
-Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
+Lua module: lualibs 2019-05-18 2.65 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2019-05-18 2.65 ConTeXt Lua libraries -- extended c
 ollection.
-Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
+Lua module: luaotfload-log 2019-05-18 2.97 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2019-05-18 2.97 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2019-05-18 2.97 luaotfload submodule / conf
 ig file reader
-luaotfload | conf : Root cache directory is C:/Users/apfel/AppData/Local/MiKTeX/
-2.9/luatex-cache/generic-dev/names.
-luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
--resolved path “D:/Programme/MiKTeX/tex/luatex/luaotfload/fontloader-2020-01-2
-6.lua”.
+luaotfload | conf : Root cache directory is /home/david/.texlive2019/texmf-var/l
+uatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2019-05-18.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2019-05-18.lua”.
 Lua-only attribute luaotfload@state = 2
 Lua-only attribute luaotfload@noligature = 3
 Lua-only attribute luaotfload@syllabe = 4
-luaotfload | init : Context OpenType loader version “3.11”
+luaotfload | init : Context OpenType loader version “3.108”
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
+Lua module: luaotfload-loaders 2019-05-18 2.97 luaotfload submodule / callback h
 andling
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
-Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
-lpers
-Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-database 2019-05-18 2.97 luaotfload submodule / database
+Lua module: luaotfload-colors 2019-05-18 2.97 luaotfload submodule / color
 Lua-only attribute luaotfload_color_attribute = 5
-Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
+Lua module: luaotfload-resolvers 2019-05-18 2.97 luaotfload submodule / resolver
 s
-luaotfload | conf : Root cache directory is C:/Users/apfel/AppData/Local/MiKTeX/
-2.9/luatex-cache/generic-dev/names.
-Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
-Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
+luaotfload | conf : Root cache directory is /home/david/.texlive2019/texmf-var/l
+uatex-cache/generic/names.
+Lua module: luaotfload-features 2019-05-18 2.97 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2019-05-18 2.97 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2019-05-18 2.97 luaotfload submodule / auxiliar
 y functions
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 _font'.
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
 t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
-Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
-cript
-Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
-ers
-Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
-e
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2020-02-08>
-(D:/Programme/MiKTeX/tex/latex/tuda-ci/tudapub.cls
-(D:/Programme/MiKTeX/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-08 L3 programming layer (loader) 
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.040 seconds
+(/home/david/texmf/tex/latex/tuda-ci/tudapub.cls
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-07-01 L3 programming layer (loader) 
 
-(D:/Programme/MiKTeX/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count163
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-07-01 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
+\c_max_int=\count80
+\l_tmpa_int=\count81
+\l_tmpb_int=\count82
+\g_tmpa_int=\count83
+\g_tmpb_int=\count84
+\g__kernel_prg_map_int=\count85
+\c__ior_term_ior=\count86
+\c_log_iow=\count87
+\l_iow_line_count_int=\count88
+\l__iow_line_target_int=\count89
+\l__iow_one_indent_int=\count90
+\l__iow_indent_int=\count91
+\c_zero_dim=\dimen102
+\c_max_dim=\dimen103
+\l_tmpa_dim=\dimen104
+\l_tmpb_dim=\dimen105
+\g_tmpa_dim=\dimen106
+\g_tmpb_dim=\dimen107
+\c_zero_skip=\skip41
+\c_max_skip=\skip42
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\g_tmpa_skip=\skip45
+\g_tmpb_skip=\skip46
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count92
+\l__intarray_loop_int=\count93
+\c__intarray_sp_dim=\dimen108
+\g__intarray_font_int=\count94
+\c__fp_leading_shift_int=\count95
+\c__fp_middle_shift_int=\count96
+\c__fp_trailing_shift_int=\count97
+\c__fp_big_leading_shift_int=\count98
+\c__fp_big_middle_shift_int=\count99
+\c__fp_big_trailing_shift_int=\count100
+\c__fp_Bigg_leading_shift_int=\count101
+\c__fp_Bigg_middle_shift_int=\count102
+\c__fp_Bigg_trailing_shift_int=\count103
+\g__fp_array_int=\count104
+\l__fp_array_loop_int=\count105
+\l__sort_length_int=\count106
+\l__sort_min_int=\count107
+\l__sort_top_int=\count108
+\l__sort_max_int=\count109
+\l__sort_true_max_int=\count110
+\l__sort_block_int=\count111
+\l__sort_begin_int=\count112
+\l__sort_end_int=\count113
+\l__sort_A_int=\count114
+\l__sort_B_int=\count115
+\l__sort_C_int=\count116
+\l__str_internal_int=\count117
+\l__tl_analysis_normal_int=\count118
+\l__tl_analysis_index_int=\count119
+\l__tl_analysis_nesting_int=\count120
+\l__tl_analysis_type_int=\count121
+\l__regex_internal_a_int=\count122
+\l__regex_internal_b_int=\count123
+\l__regex_internal_c_int=\count124
+\l__regex_balance_int=\count125
+\l__regex_group_level_int=\count126
+\l__regex_mode_int=\count127
+\c__regex_cs_in_class_mode_int=\count128
+\c__regex_cs_mode_int=\count129
+\l__regex_catcodes_int=\count130
+\l__regex_default_catcodes_int=\count131
+\c__regex_catcode_L_int=\count132
+\c__regex_catcode_O_int=\count133
+\c__regex_catcode_A_int=\count134
+\c__regex_all_catcodes_int=\count135
+\l__regex_show_lines_int=\count136
+\l__regex_min_state_int=\count137
+\l__regex_max_state_int=\count138
+\l__regex_left_state_int=\count139
+\l__regex_right_state_int=\count140
+\l__regex_capturing_group_int=\count141
+\l__regex_min_pos_int=\count142
+\l__regex_max_pos_int=\count143
+\l__regex_curr_pos_int=\count144
+\l__regex_start_pos_int=\count145
+\l__regex_success_pos_int=\count146
+\l__regex_curr_char_int=\count147
+\l__regex_curr_catcode_int=\count148
+\l__regex_last_char_int=\count149
+\l__regex_case_changed_char_int=\count150
+\l__regex_curr_state_int=\count151
+\l__regex_step_int=\count152
+\l__regex_min_active_int=\count153
+\l__regex_max_active_int=\count154
+\l__regex_replacement_csnames_int=\count155
+\l__regex_match_count_int=\count156
+\l__regex_min_submatch_int=\count157
+\l__regex_submatch_int=\count158
+\l__regex_zeroth_submatch_int=\count159
+\g__regex_trace_regex_int=\count160
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+\l__box_top_dim=\dimen109
+\l__box_bottom_dim=\dimen110
+\l__box_left_dim=\dimen111
+\l__box_right_dim=\dimen112
+\l__box_top_new_dim=\dimen113
+\l__box_bottom_new_dim=\dimen114
+\l__box_left_new_dim=\dimen115
+\l__box_right_new_dim=\dimen116
+\l__box_internal_box=\box32
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen117
+\l__coffin_offset_x_dim=\dimen118
+\l__coffin_offset_y_dim=\dimen119
+\l__coffin_x_dim=\dimen120
+\l__coffin_y_dim=\dimen121
+\l__coffin_x_prime_dim=\dimen122
+\l__coffin_y_prime_dim=\dimen123
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\g_tmpa_coffin=\box39
+\g_tmpb_coffin=\box40
+\l__coffin_bounding_shift_dim=\dimen124
+\l__coffin_left_corner_dim=\dimen125
+\l__coffin_right_corner_dim=\dimen126
+\l__coffin_bottom_corner_dim=\dimen127
+\l__coffin_top_corner_dim=\dimen128
+\l__coffin_scaled_total_height_dim=\dimen129
+\l__coffin_scaled_width_dim=\dimen130
+\c__coffin_empty_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen131
+\l__coffin_display_x_dim=\dimen132
+\l__coffin_display_y_dim=\dimen133
+\g__file_internal_ior=\read1
+\l__seq_internal_a_int=\count161
+\l__seq_internal_b_int=\count162
+\c__deprecation_minus_one=\count163
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF mo
+de
+\l__kernel_color_stack_int=\count164
 \l__pdf_internal_box=\box45
 ))
 Document Class: tudapub 2020/02/10 v2.08 Publications using TU Darmstadt's Copor
 ate Design (TUDa-CI)
-(D:/Programme/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2020-02-08 LaTeX2e option processing using LaTeX3 keys
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 )
-(D:/Programme/MiKTeX/tex/latex/urcls/URspecialopts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/urcls/URspecialopts.sty
 Package: URspecialopts 2019/01/22 v2.1 Implementation of keyval-options acceptin
 g multiple values as grouped clists
 
-(D:/Programme/MiKTeX/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2020-02-08 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count164
-\g__xparse_grabber_int=\count165
-\l__xparse_m_args_int=\count166
-\l__xparse_v_nesting_int=\count167
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count165
+\g__xparse_grabber_int=\count166
+\l__xparse_m_args_int=\count167
+\l__xparse_v_nesting_int=\count168
 ))
-\g_TUDa_ruledheaders_int=\count168
-\g_TUDa_paper_int=\count169
+\g_TUDa_ruledheaders_int=\count169
+\g_TUDa_paper_int=\count170
 
-(D:/Programme/MiKTeX/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
-(D:/Programme/MiKTeX/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent ba
-sics and keyval usage)
-
-(D:/Programme/MiKTeX/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent b
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(D:/Programme/MiKTeX/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(D:/Programme/MiKTeX/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
 )))
-(D:/Programme/MiKTeX/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2020/01/24 v3.29 KOMA-Script package (handling toc-files)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box46
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 137.
+(tocbasic)             for `toc' on input line 134.
 Class scrartcl Info: File `tudasize9pt.clo' used to setup font sizes on input li
-ne 2212.
+ne 2162.
 
-(D:/Programme/MiKTeX/tex/latex/tuda-ci/tudasize9pt.clo
+(/home/david/texmf/tex/latex/tuda-ci/tudasize9pt.clo
 File: tudasize9pt.clo TUDa-CI  font size class option (9pt)
-luaotfload | db : Font names database loaded from C:/Users/apfel/AppData/Local/M
-iKTeX/2.9/luatex-cache/generic-dev/names/luaotfload-names.luc)
-(D:/Programme/MiKTeX/tex/latex/koma-script/typearea.sty
-Package: typearea 2020/01/24 v3.29 KOMA-Script package (type area)
+luaotfload | db : Font names database loaded from /home/david/.texlive2019/texmf
+-var/luatex-cache/generic/names/luaotfload-names.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
 \ta@bcor=\skip48
-\ta@div=\count170
+\ta@div=\count171
 \ta@hblk=\skip49
 \ta@vblk=\skip50
 \ta@temp=\skip51
@@ -153,77 +292,77 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 9.0pt
 (typearea)              \footskip       = 38.32497pt
 (typearea)              \baselineskip   = 10.95pt
-(typearea)              on input line 1719.
+(typearea)              on input line 1715.
 )
-\c@part=\count171
-\c@section=\count172
-\c@subsection=\count173
-\c@subsubsection=\count174
-\c@paragraph=\count175
-\c@subparagraph=\count176
+\c@part=\count172
+\c@section=\count173
+\c@subsection=\count174
+\c@subsubsection=\count175
+\c@paragraph=\count176
+\c@subparagraph=\count177
 \scr@dte@section@maxnumwidth=\skip53
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\section on input line 4723.
+(scrartcl)           for `\section on input line 4489.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\section on input line 4723.
+(scrartcl)           for `\section on input line 4489.
 \scr@dte@part@maxnumwidth=\skip54
 Class scrartcl Info: using compatibility default `afterindent=false'
-(scrartcl)           for `\part on input line 4731.
+(scrartcl)           for `\part on input line 4497.
 \scr@dte@subsection@maxnumwidth=\skip55
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsection on input line 4741.
+(scrartcl)           for `\subsection on input line 4507.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsection on input line 4741.
+(scrartcl)           for `\subsection on input line 4507.
 \scr@dte@subsubsection@maxnumwidth=\skip56
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsubsection on input line 4751.
+(scrartcl)           for `\subsubsection on input line 4517.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsubsection on input line 4751.
+(scrartcl)           for `\subsubsection on input line 4517.
 \scr@dte@paragraph@maxnumwidth=\skip57
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\paragraph on input line 4761.
+(scrartcl)           for `\paragraph on input line 4527.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\paragraph on input line 4761.
+(scrartcl)           for `\paragraph on input line 4527.
 \scr@dte@subparagraph@maxnumwidth=\skip58
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subparagraph on input line 4771.
+(scrartcl)           for `\subparagraph on input line 4537.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subparagraph on input line 4771.
+(scrartcl)           for `\subparagraph on input line 4537.
 \abovecaptionskip=\skip59
 \belowcaptionskip=\skip60
 \c@pti@nb@sid@b@x=\box47
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 6002.
+(tocbasic)             for `lof' on input line 5781.
 \scr@dte@figure@maxnumwidth=\skip61
-\c@figure=\count177
+\c@figure=\count178
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 6014.
+(tocbasic)             for `lot' on input line 5793.
 \scr@dte@table@maxnumwidth=\skip62
-\c@table=\count178
-Class scrartcl Info: Redefining `\numberline' on input line 6178.
+\c@table=\count179
+Class scrartcl Info: Redefining `\numberline' on input line 5957.
 \bibindent=\dimen134
-) (D:/Programme/MiKTeX/tex/latex/tuda-ci/tudarules.sty
+) (/home/david/texmf/tex/latex/tuda-ci/tudarules.sty
 Package: tudarules 2020/02/10 v2.08 Creation of colored bars for tuda-ci bundle
 \c_TUDa_largerule_dim=\dimen135
 \c_TUDa_rulesep_dim=\dimen136
 \c_TUDa_smallrule_dim=\dimen137
 \c_TUDa_logoheight_dim=\dimen138
 
-(D:/Programme/MiKTeX/tex/latex/tuda-ci/tudacolors.sty
+(/home/david/texmf/tex/latex/tuda-ci/tudacolors.sty
 Package: tudacolors 2020/02/10 v2.08 Color definition for TU Darmstadt's tuda-ci
  bundle
 
-(D:/Programme/MiKTeX/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(D:/Programme/MiKTeX/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 225.
 
-(D:/Programme/MiKTeX/tex/latex/graphics-def/luatex.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -236,120 +375,197 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(D:/Programme/MiKTeX/tex/latex/tuda-ci/tudacolors.def
+(/home/david/texmf/tex/latex/tuda-ci/tudacolors.def
 File: tudacolors.def 2020/02/10 2.08 Color definitions for tuda-ci
 ))
 \l_TUDa_headrule_width_dim=\dimen139
 )
-(D:/Programme/MiKTeX/tex/latex/tuda-ci/tudafonts.sty
+(/home/david/texmf/tex/latex/tuda-ci/tudafonts.sty
 Package: tudafonts 2020/02/10 2.08 font loading for TUDa-CI, TU Darmstadt's Corp
 orate Design
 
-(D:/Programme/MiKTeX/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, a
+nd LuaTeX
 )
-(D:/Programme/MiKTeX/tex/latex/anyfontsize/anyfontsize.sty
+(/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 )
-(D:/Programme/MiKTeX/tex/latex/xcharter/XCharter.sty
-Package: XCharter 2019/11/21 v1.203
+(/usr/share/texlive/texmf-dist/tex/latex/xcharter/XCharter.sty
+Package: XCharter 2017/12/19 v1.112
 
-`XCharter' v1.203, 2019/11/21 Text macros for XCharter, an extension of Charter
- (msharpe) (D:/Programme/MiKTeX/tex/latex/base/fontenc.sty
-Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+`XCharter' v1.112, 2017/12/19 Text macros for XCharter, an extension of Charter
+ (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-(D:/Programme/MiKTeX/tex/latex/cyrillic/t2aenc.def
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 )
-(D:/Programme/MiKTeX/tex/latex/ly1/ly1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1enc.def
 File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112
-.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
 
-(D:/Programme/MiKTeX/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
-(D:/Programme/MiKTeX/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
-(D:/Programme/MiKTeX/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count179
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(D:/Programme/MiKTeX/tex/latex/fontaxes/fontaxes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mweights/mweights.sty
+Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight f
+ont packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 38.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 94.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count180
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2014/03/23 v1.0d Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
 LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
 LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
 )
-(D:/Programme/MiKTeX/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(D:/Programme/MiKTeX/tex/generic/xkeyval/xkeyval.tex
-(D:/Programme/MiKTeX/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
 )
-\XKV@depth=\count180
+\XKV@depth=\count181
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-(D:/Programme/MiKTeX/tex/latex/microtype/microtype.sty
-Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
 \MT@toks=\toks17
-\MT@count=\count181
+\MT@count=\count182
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen140
-LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count182
+LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
+\MT@listname@count=\count183
 
-(D:/Programme/MiKTeX/tex/latex/microtype/microtype-luatex.def
-File: microtype-luatex.def 2019/11/18 v2.7d Definitions specific to luatex (RS)
-Module microtype Info: overwriting function `keepligature' on input line 59
-LaTeX Info: Redefining \lsstyle on input line 695.
-LaTeX Info: Redefining \lslig on input line 695.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2019/02/28 v2.7b Definitions specific to luatex (RS)
+
+Module microtype Warning: overwriting function `keepligature' on input line 59
+LaTeX Info: Redefining \lsstyle on input line 681.
+LaTeX Info: Redefining \lslig on input line 681.
 \MT@outer@space=\skip63
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(D:/Programme/MiKTeX/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
 ))
-(D:/Programme/MiKTeX/tex/latex/roboto/roboto.sty
-Package: roboto 2019/12/11 (Bob Tennent) Supports Roboto fonts for all LaTeX eng
+(/usr/share/texlive/texmf-dist/tex/latex/roboto/roboto.sty
+Package: roboto 2019/04/19 (Bob Tennent) Supports Roboto fonts for all LaTeX eng
 ines.
 
-(D:/Programme/MiKTeX/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(D:/Programme/MiKTeX/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
 )
-(D:/Programme/MiKTeX/tex/latex/base/fontenc.sty
-Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on input
- line 112.
-
-(D:/Programme/MiKTeX/tex/latex/xcharter/t1xcharter-tlf.fd
-File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-T
-LF.
-)
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 112.
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 ))
-(D:/Programme/MiKTeX/tex/latex/roboto/roboto-mono.sty
-Package: roboto-mono 2019/12/11 (Bob Tennent) Supports RobotoMono fonts for all 
+(/usr/share/texlive/texmf-dist/tex/latex/roboto/roboto-mono.sty
+Package: roboto-mono 2019/06/03 (Bob Tennent) Supports RobotoMono fonts for all 
 LaTeX engines.
 
-(D:/Programme/MiKTeX/tex/latex/base/fontenc.sty
-Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 ))
 LaTeX Info: Redefining \LaTeX on input line 86.
 )
@@ -365,35 +581,39 @@ Package TUDa Info: Setting up marginpar consistent with layout guidelines.
 \g_TUDa_headheight_dim=\dimen147
 \g_TUDa_headwidth_dim=\dimen148
 
-(D:/Programme/MiKTeX/tex/latex/koma-script/scrlayer-scrpage.sty
-Package: scrlayer-scrpage 2020/01/24 v3.29 KOMA-Script package (end user interfa
-ce for scrlayer)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2019/02/01 v3.26b KOMA-Script package (end user interf
+ace for scrlayer)
 
-(D:/Programme/MiKTeX/tex/latex/koma-script/scrlayer.sty
-Package: scrlayer 2020/01/24 v3.29 KOMA-Script package (defining layers and page
- styles)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2019/02/01 v3.26b KOMA-Script package (defining layers and pag
+e styles)
 Package scrlayer Info: Using already defined \footheight
 (scrlayer)             hoping, that this is a length and
 (scrlayer)             not only a macro on input line 109.
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2106
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2083
 .
 )
 Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
-(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1244.
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1241.
 Package scrlayer-scrpage Info: deactivating warning for font element
-(scrlayer-scrpage)             `pagefoot' on input line 1271.
+(scrlayer-scrpage)             `pagefoot' on input line 1268.
 )
 Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 
-(D:/Programme/MiKTeX/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(D:/Programme/MiKTeX/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-\Gm@cnth=\count183
-\Gm@cntv=\count184
-\c@Gm@tempcnt=\count185
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
 \Gm@bindingoffset=\dimen149
 \Gm@wd@mp=\dimen150
 \Gm@odd@mp=\dimen151
@@ -403,65 +623,61 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen155
 \Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks18
-
-(D:/Programme/MiKTeX/tex/latex/geometry/geometry.cfg))
+)
 \g_TUDa_titlerule_dim=\dimen157
 \g_TUDa_title_box=\box48
 \g_TUDa_title_fill_skip=\skip64
 
-(D:/Programme/MiKTeX/tex/latex/tuda-ci/tuda-a4paper.clo
+(/home/david/texmf/tex/latex/tuda-ci/tuda-a4paper.clo
 File: tuda-a4paper.clo 2020/02/10 v2.08 tuda-cisizeadjustmentsfora4paper
 )
 \g_TUDa_title_info_box=\box49
 \TUDa@title_headline_box=\box50
 
-(D:/Programme/MiKTeX/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:/Programme/MiKTeX/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(D:/Programme/MiKTeX/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(D:/Programme/MiKTeX/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 105.
+Package graphics Info: Driver file: luatex.def on input line 99.
 )
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
 )
-(D:/Programme/MiKTeX/tex/latex/pdfx/pdfx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/pdfx.sty
 Package: pdfx 2019/02/27 v1.6.3 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
-\pdfx@minorversion=\count186
+\pdfx@minorversion=\count187
 
-(D:/Programme/MiKTeX/tex/generic/iftex/ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(D:/Programme/MiKTeX/tex/latex/ms/everyshi.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
-(D:/Programme/MiKTeX/tex/generic/luatex85/luatex85.sty
+(/usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty
 Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
 )
-(D:/Programme/MiKTeX/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 
 
-(D:/Programme/MiKTeX/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(D:/Programme/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks19
-){C:/Users/apfel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+){/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 warning  (map file): entry for 'dummy-space' already exists, duplicates ignored
-(D:/Programme/MiKTeX/tex/latex/pdfx/l8u-penc.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/l8u-penc.def
 File: l8u-penc.def 2017/06/23 v0.8 Custom LaTeX file, for UTF8 encoded letters a
 nd symbols
 LaTeX Info: Composite with undeclared \b in encoding L8U on input line 278.
@@ -469,146 +685,143 @@ LaTeX Info: Composite with undeclared \b in encoding L8U on input line 278.
 \pdfxsafeforxmp@toks=\toks20
 \pdfx@tmptoks=\toks21
 
-(D:/Programme/MiKTeX/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-(D:/Programme/MiKTeX/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
-(D:/Programme/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(D:/Programme/MiKTeX/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(D:/Programme/MiKTeX/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(D:/Programme/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(D:/Programme/MiKTeX/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(D:/Programme/MiKTeX/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen160
-\Hy@linkcounter=\count187
-\Hy@pagecounter=\count188
+\Hy@linkcounter=\count188
+\Hy@pagecounter=\count189
 
-(D:/Programme/MiKTeX/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
-(D:/Programme/MiKTeX/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+\Hy@SavedSpaceFactor=\count190
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-(D:/Programme/MiKTeX/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count189
-\pdfmajorversion=\count190
-Package hyperref Info: Option `pdfa' set `true' on input line 4421.
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Option `pdfa' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
+Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count191
 
-(D:/Programme/MiKTeX/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
+LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen161
-
-(D:/Programme/MiKTeX/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(D:/Programme/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-
-))
 \Fld@menulength=\count192
 \Field@Width=\dimen162
 \Fld@charsize=\dimen163
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode ON on input line 6458.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
-
-(D:/Programme/MiKTeX/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-)
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode ON on input line 6408.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
 \Hy@abspage=\count193
 \c@Item=\count194
 \c@Hfootnote=\count195
 )
 Package hyperref Info: Driver: hluatex.
 
-(D:/Programme/MiKTeX/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2020/01/14 v7.00d Hyperref driver for luaTeX
-
-(D:/Programme/MiKTeX/tex/latex/hyperref/puenc.def
-File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
-)
-(D:/Programme/MiKTeX/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-
-)
-(D:/Programme/MiKTeX/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-)
-Package hyperref Info: 񑙩.񑙪:=1.4 on input line 248.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2018/11/30 v6.88e Hyperref driver for luaTeX
+Package hyperref Info: 񑙪:=4 on input line 234.
 \Fld@listcount=\count196
 \c@bookmark@seq@number=\count197
 
-(D:/Programme/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(D:/Programme/MiKTeX/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
-6.
+2.
 )
 \Hy@SectionHShift=\skip65
 )
 Package hyperref Info: Option `unicode' set `true' on input line 1463.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
+
+)
 Package hyperref Info: Option `psdextra' set `true' on input line 1465.
 
-(D:/Programme/MiKTeX/tex/latex/hyperref/psdextra.def
-File: psdextra.def 2020/01/14 v7.00d Hyperref: Additions to PDF string support
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/psdextra.def
+File: psdextra.def 2018/11/30 v6.88e Hyperref: Additions to PDF string support
 )
-(D:/Programme/MiKTeX/tex/generic/colorprofiles/colorprofiles.sty
+(/usr/share/texlive/texmf-dist/tex/generic/colorprofiles/colorprofiles.sty
 Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A supp
 ort
 
-(D:/Programme/MiKTeX/tex/generic/colorprofiles/colorprofiles.tex))
-(D:/Programme/MiKTeX/tex/generic/stringenc/se-pdfdoc.def
-File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+(/usr/share/texlive/texmf-dist/tex/generic/colorprofiles/colorprofiles.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
+File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
 )
-(D:/Programme/MiKTeX/tex/latex/pdfx/AdobeColorProfiles.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
 ** pdfx: Metadata file Setup.xmpdata read successfully.
 (./Setup.xmpdata)<<sRGB.icc>>
 Package hyperref Info: Option `unicode' set `true' on input line 2411.
 Package hyperref Info: Option `unicode' set `true' on input line 2412.
 
-(D:/Programme/MiKTeX/tex/generic/pdftex/glyphtounicode.tex)
-(D:/Programme/MiKTeX/tex/latex/pdfx/glyphtounicode-cmr.tex)
-(D:/Programme/MiKTeX/tex/latex/pdfx/glyphtounicode-ntx.tex)
-(D:/Programme/MiKTeX/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-ntx.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(D:/Programme/MiKTeX/tex/latex/xmpincl/xmpincl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xmpincl/xmpincl.sty
 Package: xmpincl 2008/05/10 v2.2 Include XMP data in pdflatex
 )
 Using XMP template file: pdfa.xmp
@@ -618,50 +831,45 @@ Using XMP template file: pdfa.xmp
 \openout3 = pdfa.xmpi
 <<pdfa.xmpi>>)
 Package hyperref Info: Option `unicode' set `true' on input line 784.
- (D:/Programme/MiKTeX/tex/lualatex/luainputenc/luainputenc.sty
+
+(/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty
 Package: luainputenc 2010/11/19 v0.973 inputenc package for LuaTeX
 
-(D:/Programme/MiKTeX/tex/luatex/luatexbase/luatexbase.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(D:/Programme/MiKTeX/tex/luatex/ctablestack/ctablestack.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \@catcodetablestackcnt=\count198
 )
-\CatcodeTableOther=\catcodetable5
-\CatcodeTableExpl=\catcodetable6
+\CatcodeTableOther=\catcodetable6
+\CatcodeTableExpl=\catcodetable7
 )
 Lua module: luainputenc 2010/05/10 0.97 Lua simple inputenc package.
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 
-(D:/Programme/MiKTeX/tex/lualatex/luainputenc/lutf8.def
+(/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/lutf8.def
 File: lutf8.def 2010/05/10 v0.97 UTF-8 support for luainputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encodingOMS
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encodingT1
 
-(D:/Programme/MiKTeX/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encodingOT1
 
-(D:/Programme/MiKTeX/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
 )
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encodingT1
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encodingOMS
 
-(D:/Programme/MiKTeX/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-)
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encodingTS1
-
-(D:/Programme/MiKTeX/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
 )
 Now handling font encoding TU ...
 ... no UTF-8 mapping file for font encoding TU
@@ -672,159 +880,158 @@ Now handling font encoding U ...
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encodingT2A
 
-(D:/Programme/MiKTeX/tex/latex/base/t2aenc.dfu
-File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
 )
 Now handling font encoding LY1 ...
 ... processing UTF-8 mapping file for font encodingLY1
 
-(D:/Programme/MiKTeX/tex/latex/base/ly1enc.dfu
-File: ly1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ly1enc.dfu
+File: ly1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encodingTS1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
 )
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )))
-(D:/Programme/MiKTeX/tex/generic/babel/babel.sty
-Package: babel 2020/02/03 3.39 The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/06/03 3.32 The Babel package
 
-(D:/Programme/MiKTeX/tex/generic/babel/switch.def
-File: switch.def 2020/02/03 3.39 Babel switching mechanism
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
 )
-(D:/Programme/MiKTeX/tex/generic/babel/luababel.def
-\bbl@readstream=\read3
-\l@afrikaans=\language2
-Package babel Info: Non-standard hyphenation setup on input line 117.
-\l@ancientgreek=\language3
-\l@arabic=\language4
-\l@armenian=\language5
-\l@assamese=\language6
-\l@basque=\language7
-\l@belarusian=\language8
-\l@bengali=\language9
-\l@bokmal=\language10
-\l@bulgarian=\language11
-\l@catalan=\language12
-\l@churchslavonic=\language13
-\l@classiclatin=\language14
-\l@coptic=\language15
-\l@croatian=\language16
-\l@czech=\language17
-\l@danish=\language18
-\l@dutch=\language19
-\l@esperanto=\language20
-\l@estonian=\language21
-\l@ethiopic=\language22
-\l@farsi=\language23
-\l@finnish=\language24
-\l@french=\language25
-\l@friulan=\language26
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 114.
+\l@nohyphenation=\language3
+\l@estonian=\language4
+\l@nynorsk=\language5
+\l@slovenian=\language6
+\l@friulan=\language7
+\l@croatian=\language8
+\l@french=\language9
+\l@kurmanji=\language10
+\l@bokmal=\language11
+\l@russian=\language12
+\l@uppersorbian=\language13
+\l@coptic=\language14
+\l@dutch=\language15
+\l@thai=\language16
+\l@armenian=\language17
+\l@oriya=\language18
+\l@liturgicallatin=\language19
+\l@ethiopic=\language20
+\l@churchslavonic=\language21
+\l@latvian=\language22
+\l@swissgerman=\language23
+\l@czech=\language24
+\l@romansh=\language25
+\l@ancientgreek=\language26
 \l@galician=\language27
-\l@georgian=\language28
-\l@german=\language29
-\l@german-x-2019-04-04=\language30
+\l@romanian=\language28
+\l@hungarian=\language29
+\l@icelandic=\language30
 \l@greek=\language31
-\l@gujarati=\language32
-\l@hindi=\language33
-\l@hungarian=\language34
-\l@ibycus=\language35
-\l@icelandic=\language36
-\l@indonesian=\language37
-\l@interlingua=\language38
-\l@irish=\language39
-\l@italian=\language40
-\l@kannada=\language41
-\l@kurmanji=\language42
-\l@latin=\language43
-\l@latvian=\language44
-\l@lithuanian=\language45
-\l@liturgicallatin=\language46
-\l@malayalam=\language47
-\l@marathi=\language48
-\l@mongolian=\language49
-\l@mongolianlmc=\language50
-\l@monogreek=\language51
-\l@ngerman=\language52
+\l@serbianc=\language32
+\l@gujarati=\language33
+\l@assamese=\language34
+\l@afrikaans=\language35
+\l@panjabi=\language36
+\l@german-x-2019-04-04=\language37
+\l@classiclatin=\language38
+\l@piedmontese=\language39
+\l@ibycus=\language40
+\l@esperanto=\language41
+\l@malayalam=\language42
+\l@bengali=\language43
+\l@latin=\language44
+\l@kannada=\language45
+\l@tamil=\language46
+\l@pinyin=\language47
+\l@ukrainian=\language48
+\l@usenglishmax=\language49
+\l@italian=\language50
+\l@turkish=\language51
+\l@ukenglish=\language52
 \l@ngerman-x-2019-04-04=\language53
-\l@nynorsk=\language54
-\l@occitan=\language55
-\l@oriya=\language56
-\l@pali=\language57
-\l@panjabi=\language58
-\l@piedmontese=\language59
-\l@polish=\language60
-\l@portuguese=\language61
-\l@romanian=\language62
-\l@romansh=\language63
-\l@russian=\language64
-\l@sanskrit=\language65
-\l@serbian=\language66
-\l@serbianc=\language67
-\l@slovak=\language68
-\l@slovenian=\language69
-\l@spanish=\language70
-\l@swedish=\language71
-\l@swissgerman=\language72
-\l@tamil=\language73
-\l@telugu=\language74
-\l@thai=\language75
-\l@turkish=\language76
-\l@turkmen=\language77
-\l@ukenglish=\language78
-\l@ukrainian=\language79
-\l@uppersorbian=\language80
-\l@usenglishmax=\language81
-\l@welsh=\language82
+\l@danish=\language54
+\l@polish=\language55
+\l@mongolian=\language56
+\l@german=\language57
+\l@pali=\language58
+\l@bulgarian=\language59
+\l@telugu=\language60
+\l@interlingua=\language61
+\l@welsh=\language62
+\l@occitan=\language63
+\l@portuguese=\language64
+\l@ngerman=\language65
+\l@indonesian=\language66
+\l@lithuanian=\language67
+\l@mongolianlmc=\language68
+\l@belarusian=\language69
+\l@georgian=\language70
+\l@serbian=\language71
+\l@marathi=\language72
+\l@irish=\language73
+\l@finnish=\language74
+\l@arabic=\language75
+\l@turkmen=\language76
+\l@sanskrit=\language77
+\l@slovak=\language78
+\l@catalan=\language79
+\l@farsi=\language80
+\l@basque=\language81
+\l@swedish=\language82
+\l@hindi=\language83
+\l@spanish=\language84
+\l@monogreek=\language85
 )
-*************************************
-* Local config file bblopts.cfg used
-*
-(D:/Programme/MiKTeX/tex/latex/arabi/bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
-babel
-)
-(D:/Programme/MiKTeX/tex/latex/babel-english/english.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(D:/Programme/MiKTeX/tex/generic/babel/babel.def
-File: babel.def 2020/02/03 3.39 Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/06/03 3.32 Babel common definitions
 \babel@savecnt=\count199
 \U@D=\dimen164
 
-(D:/Programme/MiKTeX/tex/generic/babel/luababel.def
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute6
 ))
-Package babel Info: \l@canadian = using hyphenrules for english
-(babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language78) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language78) on input line 108.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 )
-(D:/Programme/MiKTeX/tex/latex/babel-german/ngerman.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthograp
 hy)
 
-(D:/Programme/MiKTeX/tex/latex/babel-german/ngermanb.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
 Package babel Info: Making " an active character on input line 121.
 
-(D:/Programme/MiKTeX/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.tex
-UTF-8 German hyphenation patterns (reformed orthography)
-(D:/Programme/MiKTeX/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.
+tex UTF-8 German hyphenation patterns (reformed orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.
+tex
 German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2019-04-04
- (WL))))) (D:/Programme/MiKTeX/tex/latex/babel-german/ngerman.ldf
+ (WL))))) (/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthograp
 hy)
 
-(D:/Programme/MiKTeX/tex/latex/babel-german/ngermanb.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
 )))
-(D:/Programme/MiKTeX/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2019/05/10 v5.2e context-sensitive quotations (JAW)
 \csq@reset=\count266
 \csq@gtype=\count267
 \csq@glevel=\count268
@@ -833,27 +1040,27 @@ Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 \csq@tshold=\count271
 \csq@ltx@everypar=\toks24
 
-(D:/Programme/MiKTeX/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2019/05/10 v5.2e csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(D:/Programme/MiKTeX/tex/latex/csquotes/csquotes.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Option 'babel' depreciated.
 (csquotes)             Using 'autostyle'.
 Package csquotes Info: Enabling multilingual quotes.
 )
-(D:/Programme/MiKTeX/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
-(D:/Programme/MiKTeX/tex/latex/logreq/logreq.sty
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count272
 
-(D:/Programme/MiKTeX/tex/latex/logreq/logreq.def
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count273
@@ -905,17 +1112,16 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibinitsep=\skip71
 \bibparsep=\skip72
 \bibhang=\skip73
-\blx@bcfin=\read4
+\blx@bcfin=\read3
 \blx@bcfout=\write4
-\blx@langwohyphens=\language83
 \c@mincomprange=\count314
 \c@maxcomprange=\count315
 \c@mincompwidth=\count316
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
@@ -1004,50 +1210,44 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/blx-unicode.def)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 \c@textcitecount=\count385
 \c@textcitetotal=\count386
 \c@textcitemaxnames=\count387
-\c@biburlbigbreakpenalty=\count388
-\c@biburlbreakpenalty=\count389
-\c@biburlnumpenalty=\count390
-\c@biburlucpenalty=\count391
-\c@biburllcpenalty=\count392
-\biburlbigskip=\muskip17
-\biburlnumskip=\muskip18
-\biburlucskip=\muskip19
-\biburllcskip=\muskip20
-\c@smartand=\count393
+\c@biburlnumpenalty=\count388
+\c@biburlucpenalty=\count389
+\c@biburllcpenalty=\count390
+\c@smartand=\count391
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count394
-\c@bbx:relatedtotal=\count395
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count392
+\c@bbx:relatedtotal=\count393
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1063,32 +1263,58 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(D:/Programme/MiKTeX/tex/latex/biblatex/biblatex.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-(D:/Programme/MiKTeX/tex/generic/hologo/hologo.sty
-Package: hologo 2019/12/05 v1.14 A logo collection with bookmark support (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hologo.sty
+Package: hologo 2017/05/01 v1.13 A logo collection with bookmark support (HO)
 )
+LaTeX Font Info:    Try loading font information for T1+XCharter-TLF on input li
+ne 55.
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
+File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-T
+LF.
+)
+
+LaTeX Font Warning: Font shape `T1/XCharter-TLF/regular/n' undefined
+(Font)              using `T1/XCharter-TLF/m/n' instead on input line 55.
+
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 55.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (./Setup.aux)
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+) (./Setup.aux)
 \openout1 = Setup.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 55
-.
-
-(D:/Programme/MiKTeX/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
@@ -1097,46 +1323,66 @@ LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 55
-.
-
-(D:/Programme/MiKTeX/tex/latex/cyrillic/t2acmr.fd
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 55.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 55.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 55
-.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 55.
 
-(D:/Programme/MiKTeX/tex/latex/ly1/ly1ptm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 55.
 
-(D:/Programme/MiKTeX/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count396
+\scratchcounter=\count394
 \scratchdimen=\dimen165
 \scratchbox=\box51
-\nofMPsegments=\count397
-\nofMParguments=\count398
+\nofMPsegments=\count395
+\nofMParguments=\count396
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count399
+\MPscratchCnt=\count397
 \MPscratchDim=\dimen166
-\MPnumerator=\count400
-\makeMPintoPDFobject=\count401
+\MPnumerator=\count398
+\makeMPintoPDFobject=\count399
 \everyMPtoPDFconversion=\toks26
-) (D:/Programme/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
-5.
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-\c@mv@tabular=\count402
-\c@mv@boldtabular=\count403
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 55.
+\c@mv@tabular=\count400
+\c@mv@boldtabular=\count401
 LaTeX Info: Redefining \microtypecontext on input line 55.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1144,12 +1390,11 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 55.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 
-(D:/Programme/MiKTeX/tex/latex/microtype/mt-bch.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-bch.cfg
 File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 )
 *geometry* driver: auto-detecting
@@ -1191,16 +1436,13 @@ ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box53
 Package hyperref Info: Link coloring OFF on input line 55.
 
-(D:/Programme/MiKTeX/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(D:/Programme/MiKTeX/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-(D:/Programme/MiKTeX/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count404
+\c@section@level=\count402
 )
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
@@ -1215,44 +1457,20 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           because of handling of possible bookmark level gaps.
 (scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
-(scrartcl)           you can avoid this message adding:
-(scrartcl)             \usepackage{bookmark}
+(scrartcl)           you can avoid this message with `\usepackage{bookmark}'
 (scrartcl)           before \begin{document} on input line 55.
 
-(D:/Programme/MiKTeX/tex/latex/bookmark/bookmark.sty
-Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
+Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
-(D:/Programme/MiKTeX/tex/latex/bookmark/bkm-pdftex.def
-File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input line
- 168.
-\BKM@id=\count405
+ 164.
+\BKM@id=\count403
 ))
 Package scrbase Info: activating ngerman \authorandname on input line 55.
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(D:/Programme/MiKTeX/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(D:/Programme/MiKTeX/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(D:/Programme/MiKTeX/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-))
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(D:/Programme/MiKTeX/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1266,39 +1484,32 @@ Package biblatex Info: Reference segment=0 on input line 55.
 \TUDa@xmpdata_stream=\write6
 
 \openout6 = Setup.xmpdata
-LaTeX Font Info:    Trying to load font information for T1+Roboto-LF on input li
-ne 99.
-
-(D:/Programme/MiKTeX/tex/latex/roboto/t1roboto-lf.fd
-File: T1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for T1/Roboto-LF.
+LaTeX Font Info:    Try loading font information for T1+Roboto-LF on input line 
+99.
+ (/usr/share/texlive/texmf-dist/tex/latex/roboto/T1Roboto-LF.fd
+File: T1Roboto-LF.fd 2019/04/19 (autoinst) Font definitions for T1/Roboto-LF.
 )
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 99.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 99.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 99.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 99.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 99.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 36.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 99.
-<tuda_logo.pdf, id=6, 156.49065pt x 62.59515pt>
+<tuda_logo.pdf, id=6, 156.48964pt x 62.59586pt>
 File: tuda_logo.pdf Graphic file (type pdf)
 <use tuda_logo.pdf>
 Package luatex.def Info: tuda_logo.pdf  used on input line 99.
-(luatex.def)             Requested size: 156.49501pt x 62.59605pt.
+(luatex.def)             Requested size: 156.49402pt x 62.59605pt.
 
-(D:/Programme/MiKTeX/tex/latex/microtype/mt-cmr.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 )
@@ -1308,51 +1519,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 99.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 99.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 99.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 99.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 99.
-
-
-LaTeX Warning: File `ist_logo.pdf' not found on input line 99.
-
-
-! Package luatex.def Error: File `ist_logo.pdf' not found: using draft setting.
-
-
-See the luatex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 
-   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+RobotoMono-TLF on inp
-ut line 99.
-(D:/Programme/MiKTeX/tex/latex/roboto/t1robotomono-tlf.fd
-File: T1RobotoMono-TLF.fd 2019/12/11 (autoinst) Font definitions for T1/RobotoMo
-no-TLF.
-)
-LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/m/n' aliased to
-(Font)              `T1/RobotoMono-TLF/regular/n' on input line 99.
-LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 99.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `RobotoMono-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+<../../ist_logo.pdf, id=7, 823.30779pt x 263.06853pt>
+File: ../../ist_logo.pdf Graphic file (type pdf)
+<use ../../ist_logo.pdf>
+Package luatex.def Info: ../../ist_logo.pdf  used on input line 99.
+(luatex.def)             Requested size: 125.19211pt x 40.00047pt.
  [1
 
 
 
 
-<D:/Programme/MiKTeX/tex/latex/tuda-ci/tuda_logo.pdf>]
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 104.
+<./tuda_logo.pdf><../../ist_logo.pdf>]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1365,8 +1544,6 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 104
 \tf@toc=\write7
 
 \openout7 = Setup.toc
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 111.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1375,21 +1552,17 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 133.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
 (Font)              scaled to size 7.0pt on input line 133.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
 (Font)              scaled to size 5.0pt on input line 133.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 137.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 8.0pt on input line 137.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 137.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 10.95pt on input line 137.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
 (Font)              scaled to size 10.95pt on input line 137.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/regular/n' will be
 (Font)              scaled to size 8.0pt on input line 137.
  [2
 
@@ -1465,7 +1638,7 @@ Package rerunfilecheck Info: File `Setup.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package logreq Info: Writing requests to 'Setup.run.xml'.
 
@@ -1473,33 +1646,34 @@ Package logreq Info: Writing requests to 'Setup.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32737 strings out of 481391
- 100000,1648299 words of node,token memory allocated
- 3440 words of node memory still in use:
-   62 hlist, 9 vlist, 16 rule, 6 disc, 13 local_par, 6 math, 93 glue, 33 kern, 2
-3 penalty, 69 glyph, 192 attribute, 67 glue_spec, 101 attribute_list, 1 write, 2
-6 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:3,2:1450,3:279,4:57,5:599,6:98,7:4578,8:137,9:404,10:10,11:384
+ 40837 strings out of 494291
+ 100000,1373583 words of node,token memory allocated
+ 3318 words of node memory still in use:
+   66 hlist, 8 vlist, 13 rule, 6 disc, 13 local_par, 1 dir, 6 math, 86 glue, 34 
+kern, 23 penalty, 57 glyph, 196 attribute, 63 glue_spec, 103 attribute_list, 1 w
+rite, 26 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 1:3,2:1444,3:279,4:60,5:599,6:98,7:4578,8:137,9:404,10:10,11:384
 
- 48666 multiletter control sequences out of 65536+200000
- 91 fonts using 8252611 bytes
- 57i,20n,86p,10150b,2278s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programme/MiKTeX/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}{D:/Programme/MiKTe
-X/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{D:/Programme/MiKTeX/fonts/enc/dvips/ro
-boto/rbto_e24joy.enc}<D:/Programme/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.
-pfb><D:/Programme/MiKTeX/fonts/type1/google/roboto/Roboto-Regular.pfb><D:/Progra
-mme/MiKTeX/fonts/type1/google/roboto/RobotoMono-Regular.pfb><D:/Programme/MiKTeX
-/fonts/type1/public/xcharter/XCharter-Bold.pfb><D:/Programme/MiKTeX/fonts/type1/
-public/xcharter/XCharter-Italic.pfb><D:/Programme/MiKTeX/fonts/type1/public/xcha
-rter/XCharter-Roman.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
-5.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Programm
-e/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/Programme/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr7.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr9.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Pr
-ogramme/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Setup.pdf (4 pages, 350371 bytes).
+ 43929 multiletter control sequences out of 65536+600000
+ 87 fonts using 10208751 bytes
+ 55i,20n,86p,9134b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_hsw3yt.enc}{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/xcharter/xch_a3psji.enc}</usr/share/texlive/texmf-di
+st/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/font
+s/type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/xcharter/XCharter-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/xcharter/XCharter-Roman.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Setup.pdf (4 pages, 771596 bytes).
 
-PDF statistics: 217 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 221 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 131072)
  144 words of extra memory for PDF output out of 10000 (max. 100000000)
 

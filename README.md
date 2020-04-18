@@ -1,6 +1,6 @@
 # Instructions
 This repository contains the documents for the NeXT workshops of the Technische Universität Darmstadt.
-The folders Space, Mindroid and Setup contain the finished documents while the tex folder contains the corresponding source files. If you want to rebuild the documents you need the image files of the university.
+The folders Space, Mindroid and Setup contain the finished documents while the tex folder contains the corresponding source files. If you want to rebuild the documents you need the image files of the university and save the tuda-logo in the respective folder and the ist-logo in the tex-Files folder.
 For the links to work, you need to enable symbolic links in git and run bash as admin. Alternatively, the files can also be found in the corresponding folder in the tex files.
 
 

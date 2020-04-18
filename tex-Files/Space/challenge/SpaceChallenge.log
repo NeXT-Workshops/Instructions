@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  1 APR 2020 20:19
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  18 APR 2020 16:40
  restricted system commands enabled.
 **SpaceChallenge.tex
 (./SpaceChallenge.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.038 seconds
+luaotfload | main : initialization completed in 0.041 seconds
 (/home/david/texmf/tex/latex/tuda-ci/tudapub.cls
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-07-01 L3 programming layer (loader) 
@@ -1686,7 +1686,7 @@ Here is how much of LuaTeX's memory you used:
    20 hlist, 3 vlist, 5 rule, 4 local_par, 1 dir, 18 glue, 11 kern, 4 penalty, 1
  glyph, 37 attribute, 61 glue_spec, 27 attribute_list, 1 write, 4 pdf_colorstack
  nodes
-   avail lists: 1:2,2:1825,3:239,4:46,5:267,6:143,7:2469,8:4,9:1194,10:8,11:184
+   avail lists: 1:2,2:1825,3:239,4:46,5:267,6:143,7:2470,8:4,9:1194,10:8,11:184
  45778 multiletter control sequences out of 65536+600000
  63 fonts using 8352391 bytes
  62i,19n,103p,9143b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1698,7 +1698,7 @@ ype1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /google/roboto/RobotoSlab-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/xcharter/XCharter-Roman.pfb>
-Output written on SpaceChallenge.pdf (1 page, 104929 bytes).
+Output written on SpaceChallenge.pdf (1 page, 105690 bytes).
 
 PDF statistics: 40 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 131072)

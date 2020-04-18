@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  17 APR 2020 19:40
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  18 APR 2020 16:41
  restricted system commands enabled.
 **SpaceControl.tex
 (./SpaceControl.tex
@@ -1652,10 +1652,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 116.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 116.
-<images/ist_logo.pdf, id=7, 823.30779pt x 263.06853pt>
-File: images/ist_logo.pdf Graphic file (type pdf)
-<use images/ist_logo.pdf>
-Package luatex.def Info: images/ist_logo.pdf  used on input line 116.
+<../../ist_logo.pdf, id=7, 823.30779pt x 263.06853pt>
+File: ../../ist_logo.pdf Graphic file (type pdf)
+<use ../../ist_logo.pdf>
+Package luatex.def Info: ../../ist_logo.pdf  used on input line 116.
 (luatex.def)             Requested size: 125.19211pt x 40.00047pt.
 <images/title.jpg, id=8, 643.6547pt x 481.8pt>
 File: images/title.jpg Graphic file (type jpg)
@@ -1667,8 +1667,7 @@ Package luatex.def Info: images/title.jpg  used on input line 116.
 
 
 
-<./images/title.jpg><./tuda_logo.pdf><./images/ist_logo.pdf>] (./parts/brick.te
-x
+<./images/title.jpg><./tuda_logo.pdf><../../ist_logo.pdf>] (./parts/brick.tex
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1961,7 +1960,7 @@ ogle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google
 /roboto/RobotoSlab-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xc
 harter/XCharter-Roman.pfb>
-Output written on SpaceControl.pdf (6 pages, 1172899 bytes).
+Output written on SpaceControl.pdf (6 pages, 1173576 bytes).
 
 PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 131072)

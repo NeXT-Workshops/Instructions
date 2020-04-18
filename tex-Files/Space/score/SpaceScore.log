@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  17 APR 2020 19:45
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.3.22)  18 APR 2020 16:42
  restricted system commands enabled.
 **SpaceScore.tex
 (./SpaceScore.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.041 seconds
+luaotfload | main : initialization completed in 0.039 seconds
 (/home/david/texmf/tex/latex/tuda-ci/tudapub.cls
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-07-01 L3 programming layer (loader) 
@@ -1581,12 +1581,8 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout4 = SpaceScore.bcf
 Package biblatex Info: Trying to load bibliographic data...
-
-
-Package biblatex Warning: File 'SpaceScore.bbl' is wrong format version - expect
-ed 3.0.
-
 Package biblatex Info: ... file 'SpaceScore.bbl' found.
+
 (./SpaceScore.bbl)
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
@@ -1633,11 +1629,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 114.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 114.
-<../control/images/ist_logo.pdf, id=7, 823.30779pt x 263.06853pt>
-File: ../control/images/ist_logo.pdf Graphic file (type pdf)
-<use ../control/images/ist_logo.pdf>
-Package luatex.def Info: ../control/images/ist_logo.pdf  used on input line 114.
-
+<../../ist_logo.pdf, id=7, 823.30779pt x 263.06853pt>
+File: ../../ist_logo.pdf Graphic file (type pdf)
+<use ../../ist_logo.pdf>
+Package luatex.def Info: ../../ist_logo.pdf  used on input line 114.
 (luatex.def)             Requested size: 125.19211pt x 40.00047pt.
 <../control/images/title.jpg, id=8, 643.6547pt x 481.8pt>
 File: ../control/images/title.jpg Graphic file (type jpg)
@@ -1649,8 +1644,7 @@ Package luatex.def Info: ../control/images/title.jpg  used on input line 114.
 
 
 
-<../control/images/title.jpg><./tuda_logo.pdf><../control/images/ist_logo.pdf>]
-
+<../control/images/title.jpg><./tuda_logo.pdf><../../ist_logo.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 120--129
 
  []
@@ -1758,7 +1752,7 @@ ogle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google
 /roboto/RobotoSlab-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xc
 harter/XCharter-Roman.pfb>
-Output written on SpaceScore.pdf (2 pages, 757939 bytes).
+Output written on SpaceScore.pdf (2 pages, 758612 bytes).
 
 PDF statistics: 62 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 131072)

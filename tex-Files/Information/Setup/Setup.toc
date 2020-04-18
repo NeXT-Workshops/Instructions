@@ -1,34 +1,34 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Einf\"uhrung}{2}{section.1}%
+\contentsline {section}{\numberline {1}Einf\"uhrung}{2}{section.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Space-Workshop}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.1}Space-Workshop}{2}{subsection.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Mindroid-Workshop}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.2}Mindroid-Workshop}{2}{subsection.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Ben\"otigte Git-Repositories}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Ben\"otigte Git-Repositories}{2}{subsection.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Einrichtung der PCs- Grundlagen}{3}{section.2}%
+\contentsline {section}{\numberline {2}Einrichtung der PCs- Grundlagen}{3}{section.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Java Developement Kit}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Java Developement Kit}{3}{subsection.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}LeJOS}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}LeJOS}{3}{subsection.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Ejre}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Ejre}{3}{subsection.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}IntelliJ}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}IntelliJ}{4}{subsection.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Einrichtung der Roboter}{4}{section.3}%
+\contentsline {section}{\numberline {3}Einrichtung der Roboter}{4}{section.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Einrichtung Mindroid}{4}{section.4}%
+\contentsline {section}{\numberline {4}Einrichtung Mindroid}{4}{section.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}PC}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}PC}{4}{subsection.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Handy}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Handy}{4}{subsection.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Router}{4}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Router}{4}{subsection.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Roboter}{4}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Roboter}{4}{subsection.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Pr\"asentation}{4}{section.5}%
+\contentsline {section}{\numberline {5}Pr\"asentation}{4}{section.5}% 
