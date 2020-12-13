@@ -1,0 +1,110 @@
+\documentclass[
+	ngerman,
+	IMRAD=false,
+	DIV=calc,
+	paper=a4,
+	marginpar=false,
+	accentcolor=1c,% Farbe für Hervorhebungen auf Basis der Deklarationen in den Corporate Design Richtlinien
+%	logofile=example-image, %Falls die Logo Dateien nicht vorliegen
+	]{tudapub}
+
+\usepackage[english, main=ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[babel]{csquotes}
+
+%\usepackage{biblatex}
+%\bibliography{DEMO-TUDaBibliography}
+
+%Formatierungen für Beispiele in diesem Dokument. Im Allgemeinen nicht notwendig!
+\let\file\texttt
+\let\code\texttt
+\let\pck\textsf
+\let\cls\textsf
+
+\begin{document}
+
+%Zusätzliche Metadaten für PDF/A. In diesem Fall notwendig, weil Titel ein Makro enthält.
+\Metadata{
+	author=NeXT,
+	title=Space Workshop Rating,
+	%subject=Basisdokumentation und Template zur Nutzung der tudapub-Dokumentenkasse,
+	%date=2019-04-29,
+	%keywords=TU Darmstadt \sep Corporate Design \sep LaTeX
+}
+
+
+
+
+\title{Workshop\newline Vorbereitung}
+\subtitle{NeXT Generation on Campus}
+%\author{Marei Peischl\thanks{pei\TeX{} \TeX{}nical Solutions}\and der \TeX-Löwe}
+\date{}
+%\titleimage{
+%%	%Folgende Box kann selbstverständlich durch ein mit \includegraphics geladenes Bild ersetzt werden.
+
+
+%Varianten der Infoboxen
+\addTitleBox{\includegraphics[width=\linewidth]{ist_logo.pdf}}
+%\addTitleBoxLogo{example-image}
+%\addTitleBoxLogo*{\includegraphics[width=.3\linewidth]{example-image}}
+
+\maketitle
+\newpage
+
+\tableofcontents
+
+\section{Allgemein}
+In diesem Abschnitt werden Probleme behandelt welche unabhängig vom Workshopformat auftreten können.
+
+\subsection{Probleme beim Starten}
+
+Wenn der Brick nicht mehr startet kann man es mit einem Neustart versuchen (Escape- und Enter-Taste gedrückt halten), oft hilft aber leider nur eine erneute Einrichtung der MicroSD-Karte. In unserem Kasten liegen dazu bereits einige eingerichtete Ersatzkarten bereit.
+
+\section{Space und MindroidLejos}
+In diesem Abschnitt werden Probleme behandelt welche bei der Nutzung der normalen Lejos-Software auftreten können.
+
+\subsection{Keine Verbindung zu PC}
+
+Es kann vorkommen, dass der Roboter keine Verbindung zum PC herstellen kann. Manchmal lässt sich das Problem durch ein erneutes Aus- und Einstecken des Kabels beheben. \newline Falls das nicht hilft, müssen die PAN-Einstellungen im AP- bzw USB-Modus neu gesetzt werden. Hierbei muss zuerst die IP beliebig geändert werden um sie dann wieder auf 10.0.0.1 bzw 192.168.0.42. Beim Verlassen muss der Einstellungen muss die Anzeige erscheinen, dass die Einstellungen geändert werden.
+
+\subsection{Invalid Sensor Mode}
+
+Wenn der Fehler "invalid sensor mode" erscheint ist oft das Problem, dass das Kabel zum Sensor nicht fest steckt oder dass nicht die Methode zur Einstellung des Modus aufgerufen wurde.
+
+\section{Mindroid}
+In diesem Abschnitt werden Probleme behandelt welche bei der Nutzung des Mindroid-Workshops auftreten können.
+
+\subsection{Fehler bei der Übertragung}
+
+Manchmal kommt es vor, dass das Programm nicht übertragen werden kann, obwohl der Code richtig ist. Oft sieht man in den Fehlermeldungen das Programm "Gradle". Bei diesen Problemen hilft oft ein Neustart des Servers. Dies geht einfach im Programm wo auch die IP des Servers angezeigt wird.\\
+
+Ein anderes Problem kann der nicht aktivierte Debugging-Modus sein. Manchmal kommt es vor, dass man bei der Übertragung nicht das Häkchen für den dauerhaften Zugriff setzen kann. Dies lässt sich beheben in dem man in den Einstellungen den USB-Debugging Modus deaktiviert, die App starten, diese wieder beendet um sie dann wieder nach aktiviertem USB-Debugging zu starten.
+
+\subsection{Pending}
+Wenn beim Programmstart dauerhaft "pending" angezeigt wird kann es sein, dass das Programm noch von einer falschen Anzahl an beteiligten Robotern ausgeht. Dieses Problem kann ebenso durch einen Serverneustart behoben werden.
+
+\section{Entwicklerinformationen} 
+Zur Einrichtung der Entwicklerumgebung sind ein paar Schritte notwendig.
+Kurzbeschreibung:
+\begin{itemize}
+    \item IDE herunterladen und installieren
+    \item Android SDK installieren
+    \item Systemvariable \texttt{\%ANDROID\_HOME\%} setzen
+\end{itemize}
+
+\subsection{Android SDK}
+Das Android SDK installiert man am einfachsten aus IntelliJ heraus. Nach dem Start von IntelliJ auf \textit{Configure -> Settings -> Appearance \& Behaviour -> System Settings -> Android SDK}.
+Hinter dem Feld \textit{Android SDK Location} auf \glqq Edit\grqq{} klicken. Einen Pfad angeben, in dem das Android SDK installiert werden soll (z.B. \texttt{C:\textbackslash Android} oder \texttt{ \textasciitilde/Android}). Über \textit{Next} den Download starten und warten, bis dieser beendet ist.
+
+
+
+
+https://www.jetbrains.com/de-de/idea/download/
+
+
+\cfoot{\textcolor{lightgray} \today}
+
+
+
+
+\end{document}

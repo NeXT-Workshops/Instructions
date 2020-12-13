@@ -31,11 +31,16 @@
 
 \documentclass[
 	ngerman,
+	IMRAD=false,
+	DIV=calc,
+	paper=a4,
+	marginpar=false,
 	accentcolor=1c,% Farbe für Hervorhebungen auf Basis der Deklarationen in den Corporate Design Richtlinien
 %	logofile=example-image, %Falls die Logo Dateien nicht vorliegen
 	]{tudapub}
 
 \usepackage[english, main=ngerman]{babel}
+\usepackage{fontenc}[T1]
 \usepackage[babel]{csquotes}
 
 \usepackage{biblatex}
@@ -71,21 +76,7 @@
 %\author{Marei Peischl\thanks{pei\TeX{} \TeX{}nical Solutions}\and der \TeX-Löwe}
 \date{}
 %\titleimage{
-%%	%Folgende Box kann selbstverständlich durch ein mit \includegraphics geladenes Bild ersetzt werden.
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\bigskip
-%\includegraphics[width=\textwidth]{../control/images/title.jpg}
-%	%\color{black!30}\rule{\width}{\height}
-%}
+%%	%Folgende Box kann selbstverständlich durch ein mit \includegraphics 
 
 
 %Varianten der Infoboxen
@@ -118,6 +109,9 @@ F\"ur die Bearbeitung muss an jedem PC ein Baukasten, ein EV3-Brick sowie eine A
 Falls zuletzt die Mindroid-Variante durchgef\"uhrt wurde, muss auf dem Brick zun\"achst die PAN-Einstellung ge\"andert werden. Hierbei muss der AP-Modus gew\"ahlt werden und die IP 10.0.0.1 gespeichert werden.
 
 \subsection{Mindroid}
+Um den Umfang des Workshops vor allem f\"ur j\"ungere Gruppen zu reduzieren, empfiehlt es sich, die Roboter vorher zu bauen. Die Modelle bauen auf dem Basismodell auf, wozu es \href{https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf}{\textbf{hier}\footnote{$https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf$}} die Anleitung gibt.
+Eine Beschreibung f\"ur unsere Erweiterung befindet sich 
+\href{https://www.dropbox.com/s/va4mj4pt52cti6d/MindroidAnleitung.pdf?dl=0}{\textbf{hier.}\footnote{$https://www.dropbox.com/s/va4mj4pt52cti6d/MindroidAnleitung.pdf?dl=0$}}\newline
 F\"ur den Mindroid-Workshop wird pro PC ein Roboter (oder zwei f\"ur die Kommunikation) und die Aufgabenstellung und Anleitung ben\"otigt. Ebenso muss der Router angeschaltet werden.\\
 Falls zuletzt die MindroidLejos-Variante durchgef\"uhrt wurde, muss auf dem Brick zun\"achst die PAN-Einstellung ge\"andert werden. Hierbei muss der USB-Modus gew\"ahlt werden und die IP 192.168.0.42 gespeichert werden.
 
@@ -142,6 +136,7 @@ Ein h\"aufig auftretendes Problem ist die lockere Verbindung zwischen den Kompon
 
 
 \cfoot{\textcolor{lightgray} \today}
+
 
 
 
