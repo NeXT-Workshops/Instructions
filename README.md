@@ -28,3 +28,5 @@ Alternatively, the files can also be found in the corresponding folder in the te
 
 This project is licensed under the CC-BY-SA-4.0 License - see the [LICENSE](LICENSE) file for details
  
+
+If you have any questions, feel free to contact [us](mailto:next-generation@etit.tu-darmstadt.de).
